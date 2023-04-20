@@ -8,7 +8,7 @@ const puerto = process.env.puerto;
 
 
 app.use(express.json());
-app.use(express.static(__dirname + "/src/pages"));
+app.use(express.static(__dirname + "/src/"));
 
 app.get('/*', (req, res) => {
     res.sendFile(__dirname + '/src/pages/index.html');
