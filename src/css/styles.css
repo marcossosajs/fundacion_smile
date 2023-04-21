@@ -187,10 +187,19 @@ body{
     background-color: #fce22a;
 }
 footer{
-    position: absolute;
-    bottom: 0;
     width: 100%;
     display: flex;
     margin-bottom: 10px;
     justify-content: center;
+    margin-top: 50px;
+}
+
+.boton_yellow1{
+    background: #fce22a;
+    padding: 0px 74px 0px 74px;
+    font-size: 40px;
+    font-family: 'Montserrat Bold';
+    color: #00649a;
+    border-radius: 10px;
+    margin-top: 50px;
 }
