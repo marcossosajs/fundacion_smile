@@ -77,7 +77,11 @@ body{
 
 .wrapper{
     display: flex;
-    margin-top: 100px;
+    flex-direction: column;
+}
+.first_part{
+    display: flex;
+    margin-top: 149px;
 }
 .icon_smile{
     width: 100px;
@@ -135,12 +139,15 @@ body{
     color: white;
     font-size: 80px;
     margin-left: 40px;
+    line-height: 80%;
+    padding-top: 30px;
 }
 #smile_regular_text{
     font-family: "Montserrat Regular";
     color: white;
     margin-left: 40px;
     font-size: 40px;
+    margin-bottom: 15px;
 }
 .social_network{
     display: flex;
@@ -186,6 +193,44 @@ body{
     height: 50px;
     background-color: #fce22a;
 }
+.second_part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.trip-left1{
+    background-image: url(/imgs/trip1.png);
+    background-repeat: no-repeat;
+    width: 211px;
+    height: 261px;
+    background-size: contain;
+}
+.trip-right1{
+    margin-top: 19px;
+}
+.trip-title1{
+    background: #f94a29;
+    width: fit-content;
+    padding: 10px 10px 5px 10px;
+    border-radius: 0px 10px 0px 0px;
+    font-family: 'Montserrat Regular';
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.trip{
+    
+    display: flex;
+
+}
+.second_texto1{
+    font-family: 'Montserrat Bold';
+    color: #002e5d;
+    font-size: 37px;
+    margin-top: 38px;
+    margin-right: 100px;
+    margin-bottom: 38px;
+}
 footer{
     width: 100%;
     display: flex;
@@ -193,7 +238,20 @@ footer{
     justify-content: center;
     margin-top: 50px;
 }
-
+.soldout{
+    background-color: #00649a;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 0px 5px 0px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.learnmore{
+    color: #00649a;
+    cursor: pointer;
+    margin-top: 10px;
+}
 .boton_yellow1{
     background: #fce22a;
     padding: 0px 74px 0px 74px;
@@ -202,4 +260,5 @@ footer{
     color: #00649a;
     border-radius: 10px;
     margin-top: 50px;
+    cursor: pointer;
 }
