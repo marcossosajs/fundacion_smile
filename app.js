@@ -4,8 +4,8 @@ const app = express();
 
 const router = express.Router();
 
-const puerto = process.env.puerto;
-
+//*const puerto = process.env.puerto;
+const puerto = 3000;
 
 app.use(express.json());
 app.use(express.static(__dirname + "/src/"));
