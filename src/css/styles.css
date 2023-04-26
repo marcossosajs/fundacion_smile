@@ -5,13 +5,13 @@
 
 @font-face {
     font-family: 'Montserrat Bold';
-    src: url('../fonts/MONTSERRAT-BOLD.ttf') format('truetype');
+    src: url('../fonts/MONTSERRAT-BOLD.TTF') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: 'Montserrat Regular';
-    src: url('../fonts/MONTSERRAT-REGULAR.ttf') format('truetype');
+    src: url('../fonts/MONTSERRAT-REGULAR.TTF') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
