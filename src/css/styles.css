@@ -484,10 +484,11 @@ footer{
     background-image: url(/imgs/imagen_008_home.png);
     background-repeat: no-repeat;
     width: 100%;
-    height: 600px;
+    height: 100vh;
     background-size: contain;
     justify-content: center;
     margin-top: 100px;
+    z-index: 1;
 }
 .six_title{
     display: flex;
