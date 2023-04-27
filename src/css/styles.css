@@ -260,7 +260,16 @@ body{
     align-items: flex-end;
     align-self: flex-end;
 }
+.partnerships_div{
+    width: 100px;
+    margin: 20px;
+}
+.partnerships{
+    display: flex;
+    flex-wrap: wrap;
+}
 #smile_bold_text{
+    word-break: break-word;
     font-family: "Montserrat Bold";
     color: white;
     font-size: 80px;
@@ -486,9 +495,9 @@ footer{
     width: 100%;
     height: 100vh;
     background-size: contain;
-    justify-content: center;
     margin-top: 100px;
     z-index: 1;
+    flex-direction: column;
 }
 .six_title{
     display: flex;
@@ -497,6 +506,7 @@ footer{
     color: #002e5d;
     -webkit-text-stroke: 2px black;
     margin-top: 47px;
+    align-self: center;
 }
 .registration{
     background-color:#f94a29;
