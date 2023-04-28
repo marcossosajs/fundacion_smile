@@ -261,8 +261,9 @@ body{
     align-self: flex-end;
 }
 .partnerships_div{
-    width: 100px;
+    width: 80px;
     margin: 20px;
+    cursor: pointer;
 }
 .partnerships{
     display: flex;
@@ -447,20 +448,37 @@ body{
     margin-right: 100px;
     margin-bottom: 38px;
 }
+.Partnership_button{
+    color: #002e5d;
+    font-family: 'Montserrat Bold';
+    background: #fce22a;
+    width: 300px;
+    text-align: center;
+    font-size: 19px;
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px;
+    cursor: pointer;
+    margin-left: 20px;
+    align-self: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .top_footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 20px;
     margin-bottom: 20px;
 }
 .footer_left{
     display: flex;
     flex-direction: column;
+    padding:20px;
+
 }
 .footer_right{
     display: flex;
     flex-direction: column;
+    padding:20px;
 }
 .text_final_footer{
     text-align: center;
@@ -474,11 +492,15 @@ footer{
     flex-direction: column;
     margin-bottom: 10px;
     justify-content: center;
-    margin-top: 50px;
     background-color: #002e5d;
     color: white;
 }
-
+.footer_left a{
+    margin-top: 10px;
+}
+.footer_right a{
+    margin-top: 10px;
+}
 .soldout{
     background-color: #00649a;
     color: white;
@@ -493,8 +515,8 @@ footer{
     background-image: url(/imgs/imagen_008_home.png);
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
-    background-size: contain;
+    height: initial;
+    background-size: cover;
     margin-top: 100px;
     z-index: 1;
     flex-direction: column;
