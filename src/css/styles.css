@@ -382,25 +382,31 @@ body{
     background-image: url(/imgs/trip1.png);
     background-repeat: no-repeat;
     width: 400px;
-    height: 500px;
-    background-size: contain;
+    height: 499px;
+    border-radius: 0px 48px 0px 48px;
+    box-shadow: 8px 0px 13px #858181;
+    background-size: cover;
 }
 .trip-left3{
     background-image: url(/imgs/trip3.png);
     background-repeat: no-repeat;
     width: 400px;
-    height: 500px;
-    background-size: contain;
+    height: 499px;
+    border-radius: 0px 48px 0px 48px;
+    box-shadow: 8px 0px 13px #858181;
+    background-size: cover;
 }
 .trip-left2{
     background-image: url(/imgs/trip2.png);
     background-repeat: no-repeat;
     width: 400px;
-    height: 500px;
-    background-size: contain;
+    height: 499px;
+    border-radius: 48px 0px 48px 0px;
+    box-shadow: 8px 0px 13px #858181;
+    background-size: cover;
 }
 .trip-right1{
-    margin-top: 19px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
 }
@@ -436,9 +442,9 @@ body{
     font-weight: bolder;
 }
 .trip{
-    
     display: flex;
     z-index: 200;
+    margin-bottom: 30px;
 }
 .second_texto1{
     font-family: 'Montserrat Bold';
