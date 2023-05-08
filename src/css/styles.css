@@ -191,10 +191,10 @@ body{
 .left_four{
     background-image: url(/imgs/imagen_006_home.png);
     background-repeat: no-repeat;
-    width: 999px;
-    height: 440px;
+    width: 100vw;
+    height: 74vh;
     background-size: contain;
-    margin-left: 33%;
+    margin-left: 10%;
 }
 .right_four{
     display: flex;
@@ -564,6 +564,6 @@ footer{
 .trip-right1 .trip-text{
     margin-left: 15px;
 }
-@media only screen and (max-width: 1045px) {
-
+@media only screen and (max-width: 500px) {
+    
   }
