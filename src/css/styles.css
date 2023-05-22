@@ -31,6 +31,7 @@
 .tercer_datos{
     font-family: 'Montserrat Regular';
     margin-bottom: 20px;
+    font-size: 14px;
 }
 .tercer_boton{
     background: #00649a;
@@ -135,10 +136,42 @@
 }
 .partnerships img{
     width: 30%;
+    margin-bottom: 20px;
 }
 .partnerships{
     flex-wrap: wrap;
     display: flex;
+    width: 93%;
+    justify-content: space-between;
+}
+.Partnership_button{
+    background: #fce22a;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #002e5d;
+}
+.footer_big{
+    background-image: url(/imgs/imagen_008_home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    padding: 45px;
+}
+.top_footer{
+    padding: 20px;
+}
+.text_final_footer2{
+    padding: 0px 20px 20px 20px;
+}
+.text_final_footer{
+    padding: 20px;
+}
+footer{
+    background: #002e5d;
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat Regular';
 }
 .registration{
     background: #f94a29;
@@ -153,7 +186,9 @@
 .wrapper{
     margin-top: 90px;
 }
-
+#smile_regular_text{
+    font-family: "Montserrat Regular";
+}
 .smile_foundation{
     background-color: #f94a29;
     border-radius: 0px 33px 0px 0px;
@@ -162,19 +197,20 @@
     margin-top: -52px;
 }
 .smile_foundation #smile_bold_text{
-    font-size: 40px;
+    font-size: 35px;
 }
 .first_part{
     display: flex;
     flex-direction: column-reverse;
 }
 .first_part img{
-    width: 80%;
+    width: 70%;
 }
 .left_text2{
     color: #00649a;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding:20px;
 }
 .second_texto1{
     text-align: center;
@@ -255,6 +291,11 @@ nav{
     height: 30px;
     background-color: #fce22a;
 }
+.smiles_partnerships{
+    color: #002e5d;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
 .donate_social{
     display: flex;
     flex-direction: row-reverse;
@@ -279,6 +320,7 @@ nav img{
     display: flex;
     flex-direction: column;
     align-items: end;
+    cursor: pointer;
 }
 .menu_big #menu_letra{
     align-self: flex-end;
