@@ -325,3 +325,72 @@ nav img{
 .menu_big #menu_letra{
     align-self: flex-end;
 }
+
+@media only screen and (min-width: 800px) {
+    .first_part {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-right: 15%;
+    }
+    
+    .first_part img {
+        width: 40%;
+    }
+    .smile_foundation {
+        background-color: #f94a29;
+        border-radius: 0px 33px 0px 0px;
+        color: white;
+        padding: 20px;
+        margin-top: -52px;
+        position: absolute;
+        width: 60%;
+    }
+    .left_2{
+        display: flex;
+        flex-direction: column;
+    }
+    .left_text2 {
+        color: #00649a;
+        margin-top: 85px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    .boton_yellow1 {
+        background-color: #fce22a;
+        padding: 9px;
+        text-align: center;
+        color: #00649a;
+        font-size: 20px;
+        width: 200px;
+        border-radius: 20px;
+        align-self: center;
+    }
+    .second_texto1 {
+        font-size: 30px;
+        color: #002e5d;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 20%;
+        text-align: unset;
+    }
+    .trip img {
+        width: 50%;
+    }
+    .trip {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 81%;
+        padding: 20px;
+    }
+    .tercer_part {
+        background: #002e5d;
+        color: white;
+        display: flex;
+    }
+    .tercer_part img {
+        width: 50%;
+        padding: 0px 0px 50px 0px;
+    } 
+  }
